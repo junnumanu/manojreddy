@@ -1,245 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Burger King - Food Website Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+<html>
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
-        
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+  <title>Goid</title>
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-    <body>
-        <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Burger <span>King</span></a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&display=swap"
+    rel="stylesheet" />
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="feature.html" class="nav-item nav-link">Feature</a>
-                        <a href="team.html" class="nav-item nav-link">Chef</a>
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
-                        <a href="booking.html" class="nav-item nav-link">Booking</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                </div>
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="" />
+            <span>
+              Goid
+            </span>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
             </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="food.html">Food</a>
+                <a href="contact.html">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- about section -->
+  <section class="about_section layout_margin">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About <br>
+                Our <br>
+                Food
+              </h2>
+              <hr>
+            </div>
+            <p>
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in
+              some form, by injected humour, or randomised words
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
         </div>
-        <!-- Nav Bar End -->
-        
-        
-        <!-- Page Header Start -->
-        <div class="page-header mb-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>About Us</h2>
-                    </div>
-                    <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">About Us</a>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-6 px-0">
+          <div class="img-box">
+            <img src="images/about-img.jpg" alt="">
+          </div>
         </div>
-        <!-- Page Header End -->
-        
-        
-        <!-- Food Start -->
-        <div class="food mt-0">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-4">
-                        <div class="food-item">
-                            <i class="flaticon-burger"></i>
-                            <h2>Burgers</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
-                            <a href="">View Menu</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="food-item">
-                            <i class="flaticon-snack"></i>
-                            <h2>Snacks</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
-                            <a href="">View Menu</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="food-item">
-                            <i class="flaticon-cocktail"></i>
-                            <h2>Beverages</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
-                            <a href="">View Menu</a>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- subscribe section -->
+
+  <section class="subscribe_section">
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <label for="subEmail">
+              Our Newsletter
+            </label>
+          </div>
+          <div class="col-lg-9 col-md-8">
+            <div class="box">
+              <input type="email" placeholder="Enter your email" id="subEmail">
+              <button>
+                Subscribe
+              </button>
             </div>
+          </div>
         </div>
-        <!-- Food End -->
-        
+      </form>
+    </div>
+  </section>
 
-        <!-- About Start -->
-        <div class="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
-                            <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-content">
-                            <div class="section-header">
-                                <p>About Us</p>
-                                <h2>Cooking Since 1990</h2>
-                            </div>
-                            <div class="about-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                                </p>
-                                <a class="btn custom-btn" href="">Book A Table</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-        
-        
-        <!-- Video Modal Start-->
-        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>        
-                        <!-- 16:9 aspect ratio -->
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-        <!-- Video Modal End -->
+  <!-- end subscribe section -->
 
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <div class="social_container">
+      <h4>
+        Follow on
+      </h4>
+      <div class="social-box">
+        <a href="">
+          <img src="images/fb.png" alt="">
+        </a>
+        <a href="">
+          <img src="images/twitter.png" alt="">
+        </a>
+        <a href="">
+          <img src="images/linkedin.png" alt="">
+        </a>
+        <a href="">
+          <img src="images/youtube.png" alt="">
+        </a>
+      </div>
+    </div>
+    <p>
+      &copy; 2019 All Rights Reserved. Design by
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </section>
+  <!-- footer section -->
 
-        <!-- Footer Start -->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="footer-contact">
-                                    <h2>Our Address</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                                    <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                                    <p><i class="fa fa-envelope"></i>info@example.com</p>
-                                    <div class="footer-social">
-                                        <a href=""><i class="fab fa-twitter"></i></a>
-                                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a href=""><i class="fab fa-youtube"></i></a>
-                                        <a href=""><i class="fab fa-instagram"></i></a>
-                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="footer-link">
-                                    <h2>Quick Links</h2>
-                                    <a href="">Terms of use</a>
-                                    <a href="">Privacy policy</a>
-                                    <a href="">Cookies</a>
-                                    <a href="">Help</a>
-                                    <a href="">FQAs</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
-                            </p>
-                            <div class="form">
-                                <input class="form-control" placeholder="Email goes here">
-                                <button class="btn custom-btn">Submit</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <div class="container">
-                    <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
 
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/tempusdominus/js/moment.min.js"></script>
-        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-        
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+  <!-- owl carousel script -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 35,
+      navText: [],
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  <!-- end owl carousel script -->
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+</body>
+
 </html>

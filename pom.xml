@@ -52,7 +52,7 @@
   </dependencies>
 
   <build>
-    <finalName>burgerking</finalName>
+    <finalName>food</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
